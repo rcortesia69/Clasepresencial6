@@ -1,27 +1,37 @@
 @media (max-width:480px){
+    .supercontainer{
+        margin: 10% 5% 10% 5%;
+    }
     body{
         background-color: #252932;
-        margin: 10px 1px 1px 1px
+        margin: 10% 1% 1% 1%;
 
     }
     header img{
-        width: 100%;
+        width: 50%;
         height: 100%;
         border-radius: 100%;
         border: solid 3px #252932;
         z-index: 60;
-        margin-top: 7%;
+        margin-top: 20%;
+        bottom: 100px;
+        position: relative;
     }
     header{
         width: 98%;
-        height: 10%;
+        height: 250px;;
+        max-height: 375px;
         background-color: #FFFFFF;
         text-align: center;
         z-index: 50;
         margin: 1% 1% 1% 1%;
     }
     .fiximg{
-        padding: 0% 10% 10% 10%;
+        padding: 0% 10% 0% 10%;
+    }
+    .fiximg h1{
+        position: relative;
+        bottom: 100px;
     }
     .titulo{
         font-family: 'Roboto Slab', serif;
@@ -116,6 +126,429 @@
     .container .ingles ul{
         float: left;
         width: 60%;
+    }
+    .container .subtitulo{
+        margin-bottom: 1px;
+    }
+    footer{
+        clear: left;
+        width: 96%;;
+    }
+}
+@media (min-width:481px) and (max-width: 609px){
+    .supercontainer{
+        margin: 10% 5% 10% 5%;
+    }
+    body{
+        background-color: #252932;
+        margin: 10% 1% 1% 1%;
+    }
+    header img{
+        width: 50%;
+        border-radius: 100%;
+        border: solid 3px #252932;
+        z-index: 60;
+        margin-top: 15%;
+        position: relative;
+        bottom: 100px;
+    }
+    header{
+        width: 98%;
+        height: 250px;
+        background-color: #FFFFFF;
+        text-align: center;
+        z-index: 50;
+        margin: 1% 1% 1% 1%;
+        position: relative;
+    }
+    .fiximg{
+        padding: 0% 10% 0% 10%;
+    }
+    .fiximg h1{
+        position: relative;
+        bottom: 115px;
+    }
+    .titulo{
+        font-family: 'Roboto Slab', serif;
+        font-size: 25px;
+    }
+    .subtitulo{
+        color: #F56F22;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+    .GrillaG{
+        background-color:#FFFFFF;
+        margin: 0;
+    }
+    .Grilla1{
+        background-color: #252932;
+        float: left;
+        width: 50%;
+    }
+    .Grilla2{
+        background-color: #252932;
+        float: left;
+        width: 50%;
+    }
+    .cuadrado{
+        margin: 1% 1% 1% 1%;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+    }
+    .cuadrado p{
+        text-align: justify;
+        padding: 1% 1% 1% 1%;
+    }
+
+    .cuadrado ul{
+        text-align: left;
+    }
+    .python{
+        background-color: #E5160C;
+        color: white;
+        width: 90%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .html{
+        background-color: #E5160C;
+        color: white;
+        width: 80%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .css{
+        background-color: #E5160C;
+        color: white;
+        width: 65%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .js{
+        background-color: #E5160C;
+        color: white;
+        width: 40%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .php{
+        background-color: #E5160C;
+        color: white;
+        width: 25%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .Grilla2 .cuadrado section{
+        height: 80%;
+    }
+    .Grilla2 .container{
+        height: 175px;
+        text-align: left;
+    }
+    .container .español h4{
+        float: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+    .container .español ul{
+        float: left;
+        width: 60%;
+        box-sizing: border-box;
+    }
+    .container .ingles h4{
+        float: left;
+        clear: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+    .container .ingles ul{
+        float: left;
+        width: 60%;
+        box-sizing: border-box;
+    }
+    .container .subtitulo{
+        margin-bottom: 1px;
+    }
+    footer{
+        clear: left;
+        width: 96%;;
+    }
+}
+@media (min-width:610px) and (max-width: 710px){
+    .supercontainer{
+        margin: 10% 5% 10% 5%;
+    }
+    body{
+        background-color: #252932;
+        margin: 10% 1% 1% 1%;
+    }
+    header img{
+        width: 50%;
+        border-radius: 100%;
+        border: solid 3px #252932;
+        z-index: 60;
+        margin-top: 15%;
+        position: relative;
+        bottom: 100px;
+    }
+    header{
+        width: 98%;
+        height: 350px;
+        background-color: #FFFFFF;
+        text-align: center;
+        z-index: 50;
+        margin: 1% 1% 1% 1%;
+        position: relative;
+    }
+    .fiximg{
+        padding: 0% 10% 0% 10%;
+    }
+    .fiximg h1{
+        position: relative;
+        bottom: 115px;
+    }
+    .titulo{
+        font-family: 'Roboto Slab', serif;
+        font-size: 25px;
+    }
+    .subtitulo{
+        color: #F56F22;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+    .GrillaG{
+        background-color:#FFFFFF;
+        margin: 0;
+    }
+    .Grilla1{
+        background-color: #252932;
+        float: left;
+        width: 50%;
+    }
+    .Grilla2{
+        background-color: #252932;
+        float: left;
+        width: 50%;
+    }
+    .cuadrado{
+        margin: 1% 1% 1% 1%;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+    }
+    .cuadrado p{
+        text-align: justify;
+        padding: 1% 1% 1% 1%;
+    }
+
+    .cuadrado ul{
+        text-align: left;
+    }
+    .python{
+        background-color: #E5160C;
+        color: white;
+        width: 90%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .html{
+        background-color: #E5160C;
+        color: white;
+        width: 80%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .css{
+        background-color: #E5160C;
+        color: white;
+        width: 65%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .js{
+        background-color: #E5160C;
+        color: white;
+        width: 40%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .php{
+        background-color: #E5160C;
+        color: white;
+        width: 25%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .Grilla2 .cuadrado section{
+        height: 80%;
+    }
+    .Grilla2 .container{
+        height: 175px;
+        text-align: left;
+    }
+    .container .español h4{
+        float: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+    .container .español ul{
+        float: left;
+        width: 60%;
+        box-sizing: border-box;
+    }
+    .container .ingles h4{
+        float: left;
+        clear: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+    .container .ingles ul{
+        float: left;
+        width: 60%;
+        box-sizing: border-box;
+    }
+    .container .subtitulo{
+        margin-bottom: 1px;
+    }
+    footer{
+        clear: left;
+        width: 96%;;
+    }
+}
+@media (min-width:711px) and (max-width: 1980px){
+    .supercontainer{
+        margin: 15% 10% 15% 10%;
+    }
+    body{
+        background-color: #252932;
+        margin: 10% 1% 1% 1%;
+    }
+    header img{
+        width: 50%;
+        border-radius: 100%;
+        border: solid 3px #252932;
+        z-index: 60;
+        margin-top: 15%;
+        position: relative;
+        bottom: 230px;
+    }
+    header{
+        width: 98%;
+        height: 400px;
+        background-color: #FFFFFF;
+        text-align: center;
+        z-index: 50;
+        margin: 1% 1% 1% 1%;
+        position: relative;
+    }
+    .fiximg{
+        padding: 0% 10% 0% 10%;
+    }
+    .fiximg h1{
+        position: relative;
+        bottom: 200px;
+    }
+    .titulo{
+        font-family: 'Roboto Slab', serif;
+        font-size: 25px;
+    }
+    .subtitulo{
+        color: #F56F22;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+    .GrillaG{
+        background-color:#FFFFFF;
+        margin: 0;
+    }
+    .Grilla1{
+        background-color: #252932;
+        float: left;
+        width: 50%;
+    }
+    .Grilla2{
+        background-color: #252932;
+        float: left;
+        width: 50%;
+    }
+    .cuadrado{
+        margin: 1% 1% 1% 1%;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 1% 1% 1% 1%;
+    }
+    .cuadrado p{
+        text-align: justify;
+        padding: 1% 1% 1% 1%;
+    }
+
+    .cuadrado ul{
+        text-align: left;
+    }
+    .python{
+        background-color: #E5160C;
+        color: white;
+        width: 90%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .html{
+        background-color: #E5160C;
+        color: white;
+        width: 80%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .css{
+        background-color: #E5160C;
+        color: white;
+        width: 65%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .js{
+        background-color: #E5160C;
+        color: white;
+        width: 40%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .php{
+        background-color: #E5160C;
+        color: white;
+        width: 25%;
+        padding-left: 5px;
+        text-align: left;
+    }
+    .Grilla2 .cuadrado section{
+        height: 80%;
+    }
+    .Grilla2 .container{
+        height: 175px;
+        text-align: left;
+    }
+    .container .español h4{
+        float: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+    .container .español ul{
+        float: left;
+        width: 60%;
+        box-sizing: border-box;
+    }
+    .container .ingles h4{
+        float: left;
+        clear: left;
+        width: 30%;
+        box-sizing: border-box;
+    }
+    .container .ingles ul{
+        float: left;
+        width: 60%;
+        box-sizing: border-box;
     }
     .container .subtitulo{
         margin-bottom: 1px;
